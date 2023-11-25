@@ -1,0 +1,28 @@
+Informe sobre Entrega 1 - curso Desarrollador JAVA c/ Neoris. 
+
+Primero se crea un ArrayList donde se colocaran los datos ingresados por los usuarios. 
+Decidí usar Scanner para manejar todo el programa desde la consola, y también aprender conocer cómo se utilizaba.
+Luego, tenemos un menú que le ofrece tres opciones al usuario: 1. Ingresar los datos, 2. Ver personans registradas, 2. Salir.
+De acuerdo a la opción seleccionada por el usuario, el programa se bifurca hacia uno u otro lado.
+
+Si el usuario decide la opción 1, entonces les pedimos que ingrese nombre, apellido, dni y fecha de nacimiento. 
+Allí cominzan las validaciones. 
+El nombre y el apellido no deben estar vacios, el dni debe contener al menos 8 digitos y la fecha debe estar en determinado formato. 
+Si el usuario coloca los datos validados, entonces se creará el registro. Si algo no se cumple, se le muestra un mensaje al usuario informándole el error, 
+y nuevamente se muestra el menú para que usuario decida (si quiere) ingresar de nuevo los datos.
+Si el usuario ingresa los datos correctamente, se le muestra un  cartel diciendo que la persona se agregó correctamente. 
+
+Si el usuario decide la opción 2, podra ver la lista de personas registradas, de no haber ninguna se le mostrará un cartel informando dicho caso. 
+
+Si el usuario elige la opción 3, sale del programa. 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Opinion:
+
+En este proyecto, lo que resultó mas desafiante fueron los try-catch validando los errores que podría cometer el usuario. Además me gustó poder usar Scanner
+para lo cual busqué algo de información de internet y me resultó positivo poner en práctica los primeros temas que trabajamos en el curso. 
+
+
+
+
